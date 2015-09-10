@@ -1,0 +1,23 @@
+#footer {
+    background-color: #4eb980;
+}
+#footer .button {
+background: #ffffff;
+box-shadow: inset 0 0 0 1px #ffffff;
+color: #4eb980;
+}
+
+.top-right-button:hover {
+border-color: #4eb980;
+color: #4eb980;
+}
+textarea:focus {
+background: rgba(224, 224, 224, 0.15);
+border-color: #4eb980;
+}
+#header a:hover {
+  color: #4eb980;
+}
+#header .logo {
+background: #4eb980;
+}

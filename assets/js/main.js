@@ -6,6 +6,8 @@
 
 (function($) {
 	$('#header').css("background-image", 'url("../assets/css/images/top-3200.svg"), url("../assets/css/images/overlay.png"), url("images/header.jpg")');
+
+
 	/*
 		
 	$('.image').each(function(index) {

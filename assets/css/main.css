@@ -46,7 +46,7 @@
 	a.image > img:hover {
 		width: 150%;
 	}
-
+	
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -101,7 +101,6 @@
 	.container {
 		margin-left: auto;
 		margin-right: auto;
-		overflow: auto;
 	}
 
 	.container.\31 25\25 {
@@ -2548,7 +2547,7 @@
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/wl/header.jpg");
+		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
@@ -2557,7 +2556,6 @@
 		position: relative;
 		text-align: center;
 	}
-		/* delete: Horizotal line 
 
 		#header:before, #header:after {
 			background: rgba(224, 224, 224, 0.75);
@@ -2567,7 +2565,6 @@
 			width: 1px;
 			z-index: 0;
 		}
-		*/
 
 		#header:before {
 			height: calc(100% - 50px);
@@ -2753,7 +2750,6 @@
 		position: relative;
 		z-index: 1;
 	}
-		/* delete 
 
 		#main:before {
 			background: rgba(224, 224, 224, 0.75);
@@ -2765,7 +2761,6 @@
 			width: 1px;
 			z-index: -1;
 		}
-		*/
 
 		#main header.major,
 		#main footer.major {
@@ -2868,8 +2863,8 @@
 
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("../../images/wl/header.jpg");
-				background-size: cover;
+				background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+				background-size: 1600px 230px,					auto,							cover;
 				padding: 6em 0 12em 0;
 			}
 
@@ -3030,8 +3025,8 @@
 		/* Header */
 
 			#header {
-				background-image: url("../../images/wl/header.jpg");
-				background-size: cover;
+				background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+				background-size: 1280px 184px,						auto,							cover;
 				padding: 3em 0 7em 0;
 			}
 

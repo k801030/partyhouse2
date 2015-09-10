@@ -5,7 +5,7 @@
 */
 
 (function($) {
-	$('#header').css("background-image", 'url("../assets/css/images/top-3200.svg"), url("../assets/css/images/overlay.png"), url("images/header.jpg")');
+	$('#header').css("background-image", 'url("../assets/css/images/top-3200.svg"), url("images/overlay.png"), url("images/header.jpg")');
 
 
 	/*

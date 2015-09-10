@@ -12,14 +12,8 @@
 	Owned by Vison 
 	from 2015.9
 */
-	.col-3 {
-		float: left;
-		width: 33.3%;
-	}
-
-	.col-4 {
-		float: left;
-		width: 25%;
+	#member {
+		overflow: auto;
 	}
 
 	.profile > img {
@@ -126,6 +120,16 @@
 	}
 
 	@media screen and (max-width: 1680px) {
+
+		.col-3 {
+			float: left;
+			width: 33.3%;
+		}
+
+		.col-4 {
+			float: left;
+			width: 25%;
+		}
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -2938,6 +2942,15 @@
 /* Mobile */
 
 	@media screen and (max-width: 736px) {
+			.col-3 {
+				float: left;
+				width: 100%;
+			}
+
+			.col-4 {
+				float: left;
+				width: 100%;
+			}
 
 		/* Basic */
 
@@ -3078,6 +3091,10 @@
 /* Mobile (Portrait) */
 
 	@media screen and (max-width: 480px) {
+
+			.col-3, .col-4 {
+				width: 100%;
+			}
 
 		/* Section/Article */
 

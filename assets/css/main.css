@@ -36,7 +36,16 @@
 		margin: 0;
 	}
 
+	a.image > img {
+		width: 100%;
+		transition-property: width;
+  	transition-duration: 1s;
+  	transition-timing-function: linear;
+	}
 
+	a.image > img:hover {
+		width: 150%;
+	}
 
 /* Reset */
 
@@ -2539,7 +2548,7 @@
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/wl/header.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
@@ -2859,7 +2868,7 @@
 
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("../../images/header.jpg");
+				background-image: url("../../images/wl/header.jpg");
 				background-size: cover;
 				padding: 6em 0 12em 0;
 			}
@@ -3021,7 +3030,7 @@
 		/* Header */
 
 			#header {
-				background-image: url("../../images/header.jpg");
+				background-image: url("../../images/wl/header.jpg");
 				background-size: cover;
 				padding: 3em 0 7em 0;
 			}

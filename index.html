@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/hover.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
@@ -18,11 +19,11 @@
 		<!-- Header -->
 			<div id="header">
 					
-					<span class="logo icon fa-paper-plane-o"></span>
-					<h1>Hi. This is Directive.</h1>
-					<p>A responsive HTML5 + CSS3 site template designed by <a href="http://html5up.net">HTML5 UP</a>
+					<span class="logo icon fa-home"></span>
+					<h1>Partyhouse - Wanlong Branch</h1>
+					<p>Partyhouse WLB is located in a quite area,
 					<br />
-					and released for free under the <a href="http://html5up.net/license">Creative Commons license</a>.</p>
+					 WLB is suitable for meetings and private parties.</p>
 				</div>
 				<div class="layer"></div>
 			</div>
@@ -31,46 +32,45 @@
 			<div id="main">
 
 				
-
 				<div class="box alt container">
 					<section class="feature left">
-						<a href="#" class="image icon fa-signal"><img src="images/pic01.jpg" alt="" /></a>
+							<a href="#" class="image "><img src="images/wl/pic01.jpg" alt="" /></a>
 						<div class="content">
-							<h3>The First Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+							<h3>ecological diversity</h3>
+							<p>Partyhouse WLB explores ecological diversity with well-fed reptile and arthropod, accompanying comforting stuff animals.</p>
 						</div>
 					</section>
 					<section class="feature right">
-						<a href="#" class="image icon fa-code"><img src="images/pic02.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="images/wl/pic02.jpg" alt="" /></a>
 						<div class="content">
-							<h3>The Second Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+							<h3>food and dessert</h3>
+							<p>WLB provides residents with amenities with good quality and internationally renown food and dessert.</p>
 						</div>
 					</section>
 					<section class="feature left">
-						<a href="#" class="image icon fa-mobile"><img src="images/pic03.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="images/wl/pic03.jpg" alt="" /></a>
 						<div class="content">
-							<h3>The Third Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+							<h3>Reservation Service</h3>
+							<p>For reservation, please call: +886-928-578-342</p>
 						</div>
 					</section>
 				</div>
 
 			
 
-				<footer class="major container 75%">
-					<h3>Member</h3>
+				<footer id="member" class="major container 75%">
+					<h3>Members</h3>
 					<div class="profile col-3">
 						<img src="http://graph.facebook.com/100001504246693/picture?width=200">
-						<p class="name">黃郁瑄</p>
+						<p class="name">Juno Huang</p>
 					</div>
 					<div class="profile col-3">
 						<img src="http://graph.facebook.com/1538348076/picture?width=200">
-						<p class="name">洪紫庭</p>
+						<p class="name">Violet Hung</p>
 					</div>
 					<div class="profile col-3">
-						<img src="http://graph.facebook.com/1538348076/picture?width=200">
-						<p class="name">洪紫庭</p>
+						<img src="images/wl/m3.jpg">
+						<p class="name">Ginger Tao</p>
 					</div>
 					<!--
 					<p>Tellus erat mauris ipsum fermentum<br />
@@ -94,34 +94,11 @@
 				<div class="container 75%">
 
 					<header class="major last">
-						<h2>Questions or comments?</h2>
+						<h2>Leave a Message Here</h2>
 					</header>
+					<p></p>
 
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor
-					orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
-
-					<form method="post" action="#">
-						<div class="row">
-							<div class="6u 12u(mobilep)">
-								<input type="text" name="name" placeholder="Name" />
-							</div>
-							<div class="6u 12u(mobilep)">
-								<input type="email" name="email" placeholder="Email" />
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-								<textarea name="message" placeholder="Message" rows="6"></textarea>
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div>
-						</div>
-					</form>
+					<div id="disqus_thread"></div>
 
 					<ul class="icons">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
@@ -137,6 +114,21 @@
 
 				</div>
 			</div>
+
+			<!-- DISQUS plugin -->
+
+			<script type="text/javascript">
+			    /* * * CONFIGURATION VARIABLES * * */
+			    var disqus_shortname = 'partyhousetaipei';
+			    
+			    /* * * DON'T EDIT BELOW THIS LINE * * */
+			    (function() {
+			        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			    })();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

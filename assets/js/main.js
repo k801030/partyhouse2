@@ -6,6 +6,20 @@
 
 (function($) {
 
+	/*
+		
+	$('.image').each(function(index) {
+		var parentWidth = $(this).width();
+		var parentHeight = $(this).height();
+		var img = $(this).children('img');
+
+		img.width(parentWidth);
+		// photo is wider
+
+	});
+	*/
+
+
 	skel.breakpoints({
 		wide: '(max-width: 1680px)',
 		normal: '(max-width: 1280px)',

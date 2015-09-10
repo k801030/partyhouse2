@@ -5,7 +5,7 @@
 */
 
 (function($) {
-	$('#header').css("background-image", 'url("../assets/css/images/top-3200.svg"), url("images/overlay.png"), url("images/header.jpg")');
+	//$('#header').css("background-image", 'url("http://cdn.getforge.com/partyhouse.getforge.io/1441903452/assets/css/images/top-3200.svg"), url("http://cdn.getforge.com/partyhouse.getforge.io/1441903452/images/overlay.png"), url("http://cdn.getforge.com/partyhouse.getforge.io/1441903452/images/header.jpg")');
 
 
 	/*

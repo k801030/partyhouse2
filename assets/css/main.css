@@ -2516,6 +2516,7 @@
 		position: relative;
 		text-align: center;
 	}
+		/* delete: Horizotal line 
 
 		#header:before, #header:after {
 			background: rgba(224, 224, 224, 0.75);
@@ -2525,6 +2526,7 @@
 			width: 1px;
 			z-index: 0;
 		}
+		*/
 
 		#header:before {
 			height: calc(100% - 50px);
@@ -2710,6 +2712,7 @@
 		position: relative;
 		z-index: 1;
 	}
+		/* delete 
 
 		#main:before {
 			background: rgba(224, 224, 224, 0.75);
@@ -2721,6 +2724,7 @@
 			width: 1px;
 			z-index: -1;
 		}
+		*/
 
 		#main header.major,
 		#main footer.major {
@@ -2823,8 +2827,8 @@
 
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
-				background-size: 1600px 230px,					auto,							cover;
+				background-image: url("../../images/header.jpg");
+				background-size: cover;
 				padding: 6em 0 12em 0;
 			}
 
@@ -2985,8 +2989,8 @@
 		/* Header */
 
 			#header {
-				background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
-				background-size: 1280px 184px,						auto,							cover;
+				background-image: url("../../images/header.jpg");
+				background-size: cover;
 				padding: 3em 0 7em 0;
 			}
 
